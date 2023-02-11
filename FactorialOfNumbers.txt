@@ -1,0 +1,22 @@
+//Factorail Numbers
+
+//First Method - Using For- Loop
+
+import java.util.Scanner;
+class Main
+{
+  public static void main(String args[])
+  {
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Enter the Number For Factorial: ");
+    int num = sc.nextInt();
+    for(int i = num-1;i>=1;i--)
+    {
+      num = num * i ;
+    }
+   System.out.println(num);
+  }
+}
+
+// Second Method - Using While-Loop
+
